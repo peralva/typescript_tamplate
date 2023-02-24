@@ -1,0 +1,19 @@
+{
+  "name": "typescript_tamplate",
+  "version": "1.0.0",
+  "description": "Typescript Tamplate",
+  "main": "dist/index",
+  "scripts": {
+    "test": "node dist/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peralva/typescript_tamplate.git"
+  },
+  "author": "Bruno Peralva (brunoperalva@hotmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peralva/typescript_tamplate/issues"
+  },
+  "homepage": "https://github.com/peralva/typescript_tamplate#readme"
+}
