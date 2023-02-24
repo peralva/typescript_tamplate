@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/peralva/typescript_tamplate/issues"
   },
-  "homepage": "https://github.com/peralva/typescript_tamplate#readme"
+  "homepage": "https://github.com/peralva/typescript_tamplate#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
