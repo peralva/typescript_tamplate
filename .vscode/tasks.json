@@ -10,7 +10,7 @@
 			},
 			"problemMatcher": [],
 			"label": "npm: nodemon",
-			"detail": "START \"Nodemon\" nodemon --trace-warnings --inspect"
+			"detail": "START \"Nodemon\" npx nodemon --trace-warnings --inspect"
 		},
 		{
 			"type": "npm",
@@ -21,7 +21,7 @@
 			},
 			"problemMatcher": [],
 			"label": "npm: compile",
-			"detail": "START \"Compile\" tsc -w"
+			"detail": "START \"Compile\" npx tsc -w"
 		}
 	]
 }
