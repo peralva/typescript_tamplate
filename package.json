@@ -4,7 +4,9 @@
   "description": "Typescript Tamplate",
   "main": "dist/index",
   "scripts": {
-    "test": "node dist/index"
+    "test": "node dist/index",
+    "nodemon": "START \"Nodemon\" nodemon --trace-warnings --inspect",
+    "compile": "START \"Compile\" tsc -w"
   },
   "repository": {
     "type": "git",
