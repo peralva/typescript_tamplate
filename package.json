@@ -1,28 +1,30 @@
 {
-  "name": "typescript_tamplate",
-  "version": "1.0.0",
-  "description": "Typescript Tamplate",
-  "main": "dist/index",
-  "scripts": {
-    "test": "node dist/index",
-    "nodemon": "START \"Nodemon\" npx nodemon --trace-warnings --inspect",
-    "compile": "START \"Compile\" npx tsc -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/peralva/typescript_tamplate.git"
-  },
-  "author": "Bruno Peralva (brunoperalva@hotmail.com)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/peralva/typescript_tamplate/issues"
-  },
-  "homepage": "https://github.com/peralva/typescript_tamplate#readme",
-  "devDependencies": {
-    "@types/node": "^18.15.5",
-    "@typescript-eslint/eslint-plugin": "^5.53.0",
-    "@typescript-eslint/parser": "^5.53.0",
-    "eslint": "^8.34.0",
-    "typescript": "^5.0.2"
-  }
+	"name": "typescript_tamplate",
+	"version": "1.0.0",
+	"description": "Typescript Tamplate",
+	"main": "dist/index",
+	"scripts": {
+		"test": "SET NODE_ENV=development&&START /WAIT \"Test\" node --inspect dist/index",
+		"compile": "RMDIR /S /Q dist&npx tsc -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/peralva/typescript_tamplate.git"
+	},
+	"author": "Bruno Peralva (brunoperalva@hotmail.com)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/peralva/typescript_tamplate/issues"
+	},
+	"homepage": "https://github.com/peralva/typescript_tamplate#readme",
+	"devDependencies": {
+		"@eslint/js": "^9.11.1",
+		"@types/node": "^22.7.4",
+		"eslint": "^9.11.1",
+		"eslint-config-prettier": "^9.1.0",
+		"globals": "^15.9.0",
+		"prettier": "^3.3.3",
+		"typescript": "^5.6.2",
+		"typescript-eslint": "^8.7.0"
+	}
 }
